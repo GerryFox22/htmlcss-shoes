@@ -8,13 +8,10 @@ body {
     font-family: 'Mukta', sans-serif;
 }
 
-#navigator {
-    position: fixed;
-    right: 0;
-    z-index: 1;
-}
+
 
 .navigator-number {
+    padding: 20px;
     display: inline-block;
     text-decoration: none;
 }
@@ -25,4 +22,52 @@ body {
     background-color: white;
     text-decoration: none;
     padding: 0 18px;
+}
+
+.background-shoe-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh
+}
+
+.shoe-container {
+    position: absolute;
+    width: 700px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.shoe-img,
+img {
+    width: 100%
+}
+
+.shoe-container h1 {
+    font-size: 90px;
+    text-align: center;
+    line-height: 80px;
+}
+
+
+
+#navigator {
+    position: fixed;
+    right: 0;
+    z-index: 1;
+}
+
+#red {
+    background-color: red;
+    color: yellow;
+}
+
+#green {
+    background-color: green;
+    color: yellow;
+}
+
+#yellow {
+    background-color: yellow;
+    color: green;
 }
